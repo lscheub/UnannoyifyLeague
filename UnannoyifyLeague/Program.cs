@@ -19,7 +19,7 @@ internal static class StartupHandler
             // Show some kind of message so that UnannoyifyLeague doesn't just disappear.
             MessageBox.Show(
                 "UnannoyifyLeague encountered an error and couldn't properly initialize itself. " +
-                "Please contact the creator through GitHub (https://github.com/leoliz/UnannoyifyLeague) or Discord.\n\n" + ex,
+                "Please contact the creator through GitHub (https://github.com/leoliz-new/UnannoyifyLeague) or Discord.\n\n" + ex,
                 UnannoyifyLeagueTitle,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error,
@@ -42,7 +42,7 @@ internal static class StartupHandler
         {
             MessageBox.Show(
                 "Unable to find the path to the Riot Client. Usually this can be resolved by launching any Riot Games game once, then launching again. " +
-                "If this does not resolve the issue, please file a bug report through GitHub (https://github.com/leoliz/UnannoyifyLeague) or Discord.",
+                "If this does not resolve the issue, please file a bug report through GitHub (https://github.com/leoliz-new/UnannoyifyLeague) or Discord.",
                 UnannoyifyLeagueTitle,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error,
