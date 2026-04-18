@@ -54,7 +54,7 @@ internal static class Utils
 
     public static Process? GetLeagueClientProcess()
     {
-        var leagueNames = new[] { "LeagueClientUx", "LeagueClient", "LeagueClientUxRender" };
+        var leagueNames = new[] { "LeagueClient" };
         return leagueNames.SelectMany(Process.GetProcessesByName).FirstOrDefault();
     }
 
